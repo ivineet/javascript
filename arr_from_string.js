@@ -7,6 +7,7 @@ function empty(str1){
 		return true;
 	}
 	return false;
+
 }
 
 var strrev = function(str1){
@@ -23,13 +24,18 @@ var strrev = function(str1){
 		t[j] = temp;
 		--j;
 	}
+
+	return t.toString();
+
 	
-	return t.toString();	
 }
+
 
 console.log(arr);
 
 for(var i=0; i < arr.length; i++){
+	
+	
 	console.log(strrev(arr[i].toString()));
 }
 
