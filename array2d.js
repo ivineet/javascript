@@ -1,7 +1,6 @@
-
+//Declaration of 2d-Array
 
 var arr = [];
-
 var col = 10;
 
 for(var i=0; i < 3; i++){
